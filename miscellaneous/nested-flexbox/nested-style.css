@@ -1,0 +1,27 @@
+.outer-container {
+  display: flex;
+  border: 3px solid black;
+  height: 200px;
+  align-items: center; /* Vertically center items */
+}
+
+.outer-item {
+  background-color: #007bff; /* Blue */
+  color: white;
+  padding: 20px;
+  margin: 10px;
+}
+
+.nested-container {
+  /* This item is ALSO a flex container */
+  display: flex;
+  flex-direction: column; /* Stack its own items vertically */
+  background-color: #28a745; /* Green */
+}
+
+.nested-item {
+  background-color: #dc3545; /* Red */
+  color: white;
+  padding: 10px;
+  margin: 5px;
+}

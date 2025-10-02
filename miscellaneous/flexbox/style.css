@@ -1,0 +1,26 @@
+/* General Styling for a cleaner look */
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.container {
+  border: 3px solid #333;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.item {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  margin: 5px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* --- FLEXBOX MAGIC --- */
+/* This is the key part of the lesson. */
+.flex-container {
+  display: flex;
+}
